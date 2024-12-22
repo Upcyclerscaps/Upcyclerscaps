@@ -18,7 +18,6 @@ Upcyclers is a web platform that connects waste collectors with individuals/busi
 - 🔐 User authentication & profile management
 - 📦 Buy & sell recyclable items
 - 🗺️ Geolocation-based collector search
-- 💬 Real-time chat between buyers & sellers
 - 📱 Responsive design for all devices
 
 ## 🛠️ Tech Stack
@@ -60,7 +59,7 @@ npm install
 
 3. Install dependencies for backend
 ```bash
-bashCopycd backend
+cd backend
 npm install
 ```
 
