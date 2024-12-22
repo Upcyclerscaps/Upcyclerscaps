@@ -22,7 +22,7 @@ Upcyclers is a web platform that connects waste collectors with individuals/busi
 - 📱 Responsive design for all devices
 
 ## 🛠️ Tech Stack
-- Frontend:
+ - Frontend:
  - Vanilla JavaScript
  - Tailwind CSS
  - Webpack
@@ -93,6 +93,7 @@ npm run start-dev
 
 📁 Project Structure
 Frontend Structure
+```bash
 frontend/
 ├── src/
 │   ├── public/
@@ -104,8 +105,9 @@ frontend/
 │   ├── styles/
 │   └── templates/
 └── webpack.config.js
-
+```
 Backend Structure
+```bash
 backend/
 ├── src/
 │   ├── config/
@@ -116,14 +118,14 @@ backend/
 │   ├── services/
 │   └── utils/
 └── app.js
-
+```
 🔑 API Documentation
 Full API documentation is available at /api-docs when running the backend server.
+
 https://upcyclers.servehttp.com/api-docs
 
 🎯 Features In Detail
-Authentication & Authorization
-
+Authentication & Authorizatio
 JWT-based authentication
 Role-based access control
 Secure password hashing with bcrypt
