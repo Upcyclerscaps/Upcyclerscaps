@@ -21,21 +21,21 @@ Upcyclers is a web platform that connects waste collectors with individuals/busi
 - 📱 Responsive design for all devices
 
 ## 🛠️ Tech Stack
- - Frontend:
- - Vanilla JavaScript
- - Tailwind CSS
- - Webpack
- - Leaflet.js for maps
+- Frontend:
+  - Vanilla JavaScript
+  - Tailwind CSS
+  - Webpack
+  - Leaflet.js for maps
  
 - Backend:
- - Node.js
- - Express.js
- - MongoDB
- - JWT Authentication
+  - Node.js
+  - Express.js
+  - MongoDB
+  - JWT Authentication
  
 - Cloud Services:
- - MongoDB Atlas
- - Cloudinary (Image Storage)
+  - MongoDB Atlas
+  - Cloudinary (Image Storage)
 
 ## 🚀 Getting Started
 
