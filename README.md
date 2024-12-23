@@ -1,15 +1,4 @@
-- 👋 Ini Adalah Akun Github Project Capstone Dicoding STUPEN BATCH 7 2024
-- 👀 ANGGOTA :
-- ✨ (F1567YB21) – (Dimas Julian) - ( Front-End Developer )
-- ✨ (F1287YB32) – (Herdiansyah Ramadhana) - ( Back-End Developer )
-- ✨ (F0097YB63) – (Shahril Wahyu Nugroho) - ( Back-End Developer )
-- ✨ (F0097YB69) – (Zaidan Rivandani) - ( Front-End Developer )
-
-# 🌱 Upcyclers Web Application
-
-<p align="center">
- <img src="public/images/logo.png" alt="Upcyclers Logo" width="200"/>
-</p>
+# 🌱 Upcyclers Web Application - Capstone Project - Dicoding Study Independent Batch 7 
 
 ## 📖 About
 Upcyclers is a web platform that connects waste collectors with individuals/businesses looking to sell recyclable materials. The application facilitates sustainable waste management by promoting reuse and recycling.
@@ -48,18 +37,21 @@ Upcyclers is a web platform that connects waste collectors with individuals/busi
 
 1. Clone the repositor
 ```bash
-git clone https://github.com/yourusername/upcyclers.git
-cd upcyclers
+# clone reporistory backend
+git clone https://github.com/Upcyclerscaps/Upcyclers-Backend
+
+# clone reporistory frontend
+git clone https://github.com/Upcyclerscaps/Upcyclers-Frontend
 ```
 2. Install dependencies for frontend
 ```bash
-cd frontend
+cd Upcyclers-Frontend
 npm install
 ```
 
 3. Install dependencies for backend
 ```bash
-cd backend
+cd Upcyclers-Backend
 npm install
 ```
 
@@ -77,17 +69,22 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 # Frontend config.js
 ```bash
-API_BASE_URL=http://localhost:5000/api/v1
+API_BASE_URL=ur_backend_url/api/v1
 ```
+
 5. Run the application
 ```bash
-bashCopy# Run backend (from backend directory)
+# Run backend (from backend directory)
 npm run dev
 ```
 
 # Run frontend (from frontend directory)
 ```bash
-npm run start-dev
+# Run Tailwind
+npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css --watch
+
+npm run build
+npm run serve
 ```
 
 📁 Project Structure
@@ -124,41 +121,35 @@ Full API documentation is available at /api-docs when running the backend server
 https://upcyclers.servehttp.com/api-docs
 
 🎯 Features In Detail
-Authentication & Authorizatio
-JWT-based authentication
-Role-based access control
-Secure password hashing with bcrypt
+- Authentication & Authorizatio
+- JWT-based authentication
+- Role-based access control
+- Secure password hashing with bcrypt
 
 Geolocation Features
-location tracking
-Nearby seller/buyer search
-Address autocomplete
+- location tracking
+- Nearby seller/buyer search
+- Address autocomplete
 
 File Management
-Image upload with Cloudinary
-File type validation
-Image optimization
+- Image upload with Cloudinary
+- File type validation
+- Image optimization
 
 User Management
+- Profile customization
+- Location management
+- Details Products
 
-Profile customization
-Location management
-Details Products
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-👥 Team
-
-Frontend Developer - [Your Name]
-Backend Developer - [Your Name]
-UI/UX Designer - [Your Name]
+👥 Team CS7-F012
+- ✨ (F1567YB21) – (Dimas Julian) - ( Front-End Developer )
+- ✨ (F1287YB32) – (Herdiansyah Ramadhana) - ( Back-End Developer )
+- ✨ (F0097YB63) – (Shahril Wahyu Nugroho) - ( Back-End Developer )
+- ✨ (F0097YB69) – (Zaidan Rivandani) - ( Front-End Developer )
 
 🙏 Acknowledgments
+[Tailwind CSS](https://tailwindcss.com/docs/installation/using-postcss)
+[Leaflet.js](https://leafletjs.com/examples/quick-start/)
+[Cloudinary](https://cloudinary.com/documentation)
+[MongoDB Atlas](https://www.mongodb.com/docs/atlas/)
 
-Tailwind CSS
-Leaflet.js
-Cloudinary
-MongoDB Atlas
-
-📞 Contact
-Your Name - @yourusername
