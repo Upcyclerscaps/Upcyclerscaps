@@ -142,10 +142,10 @@ User Management
 - Details Products
 
 👥 Team CS7-F012
-- ✨ (F1567YB21) – (Dimas Julian) - ( Front-End Developer )
-- ✨ (F1287YB32) – (Herdiansyah Ramadhana) - ( Back-End Developer )
-- ✨ (F0097YB63) – (Shahril Wahyu Nugroho) - ( Back-End Developer )
-- ✨ (F0097YB69) – (Zaidan Rivandani) - ( Front-End Developer )
+- ✨ [(F1567YB21) – (Dimas Julian) - ( Front-End Developer )](https://github.com/dims572)
+- ✨ [(F1287YB32) – (Herdiansyah Ramadhana) - ( Back-End Developer )](https://github.com/Herazor)
+- ✨ [(F0097YB63) – (Shahril Wahyu Nugroho) - ( Back-End Developer )](https://github.com/rlexs)
+- ✨ [(F0097YB69) – (Zaidan Rivandani) - ( Front-End Developer )](https://github.com/zaidrvnd)
 
 🙏 Acknowledgments
 [Tailwind CSS](https://tailwindcss.com/docs/installation/using-postcss)
